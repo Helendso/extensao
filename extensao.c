@@ -3,11 +3,10 @@
 #include <stdio.h>
 #include <string.h>
 
-void q01()
-{
+
+void q01(){
     char str[50];
-   
-    printf("Digite uma palavra":);
+    printf("Digite uma palavra");
     scanf( " %50[^\n]", str);
     
     int tamanho = strlen(str);
@@ -17,5 +16,5 @@ void q01()
 }
 int main () {
     q01();
-    return EXIT_SUCCESS;
+    return 0;
 }
