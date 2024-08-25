@@ -4,7 +4,7 @@
 #include <string.h> 
 
 
-void q01(){
+int main(){
   
     char str[50], str1[50], copia[50];
     
@@ -30,8 +30,7 @@ void q01(){
         printf("O tamanho da string é: %d\n A String copiada é: %s\n A String Concatenada é: %s\n A primeira string é menor que a segunda\n", tamanho, copia, str);
   
     }
-}
-int main () {
-    q01();
+
+ 
     return 0;
 }
