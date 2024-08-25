@@ -30,7 +30,4 @@ int main(){
         printf("O tamanho da string é: %d\n A String copiada é: %s\n A String Concatenada é: %s\n A primeira string é menor que a segunda\n", tamanho, copia, str);
   
     }
-
- 
-    return 0;
 }
